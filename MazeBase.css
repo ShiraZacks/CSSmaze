@@ -1,0 +1,36 @@
+.container{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+}
+.mazeLine {
+    padding: 15px;
+    font-size: xx-large;
+  }
+.left{
+      text-align: left;
+  }
+.right{
+      text-align: right;
+  }
+
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 119, 255);
+    position: relative;
+    animation: mymove 5s 1 1s}
+
+@keyframes mymove{
+        0% {top:0px; left: 0px}
+        35% {top: 0px; left: 600px; background: #6cff0a;}
+        40% {top: 120px; left:600px; background: rgb(0, 119, 255);}
+        60% {top: 120px; left: 140px; background:#6cff0a;}
+        65% {top: 240px; left:140px; background: rgb(0, 119, 255);}
+        85% {top: 240px; left:600px; background:#6cff0a;}
+        90% {top: 345px; left:600px; background: rgb(0, 119, 255);}
+        100% {top: 345px; left: 500px; background: #6cff0a;}
+        }
+
+
